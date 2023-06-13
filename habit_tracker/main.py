@@ -52,7 +52,6 @@ class Habilidad:
         print(f"{color}{index+1}. {self.nombre} - {self.descripcion} (Racha actual: {self.racha_actual}, Racha más larga: {self.racha_mas_larga})")
 
 class MonitorHabitos:
-    # Aquí se mantiene el código previo...
     def __init__(self, filename: str = 'habilidades.json'):
         self.filename = filename
         self.habilidades = []  # Inicializa self.habilidades como una lista vacía
