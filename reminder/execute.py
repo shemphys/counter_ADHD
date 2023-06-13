@@ -3,8 +3,8 @@ import subprocess
 
 # This goes to a thread
 def ejecutar_matrix_rain():
-#	subprocess.call(['python', 'src/pymatrix-rain-master/pymatrix/pymatrix.py'])
-	subprocess.call(['python', 'src/mymatrix.py'])
+	subprocess.call(['python', 'src/pymatrix-rain-master/pymatrix/pymatrix.py'])
+#	subprocess.call(['python', 'src/mymatrix.py'])
 
 # This function will go to other thread
 def ejecutar_TDAH_reminder():

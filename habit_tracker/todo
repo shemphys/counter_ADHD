@@ -1,9 +1,28 @@
+APRENDER
+Take a closer look to:
+    libraries:
+        colorama (fore, init)
+        dateutil.parser (parse)
+        dateutil.relativedelta (relativedelta)
 
-que hacen las bibliotecas??
+__repr__
+    Si esta función existe dentro de una clase, esto será lo que se muestre (o algo así!?!?!?!?!?!??!)
 
-
-
+if __name__ == "__main__":
+    main()
+    **No comprendo bien qué carajos hace esto
 __________________________________
 __________________________________
+ERRORES
+Ahora: puedo añadir tantos días como quiera a cada habilidad
+    C: solo debería poder añadir 1 por día
+
+Ahora: no resetea, pone en rojo muy tarde (quizás porque tiene en cuenta horas y minutos)
+    C: cuando jodo una racha y se pone en rojo, debería resetear la cuenta. 
+__________________________________
+__________________________________
+IMPLEMENTAR
 Quiero que solo tenga en cuenta día, mes y año, no hora.
     - hago python a las 23.00, a las 00.01 debería estar en naranja ya
+
+Siempre no se añade una descripción, ésta será "( null )"

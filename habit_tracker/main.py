@@ -8,7 +8,7 @@ from dateutil.relativedelta import relativedelta
 init(autoreset=True)  # Para que los colores de colorama se reseteen automáticamente
 
 class Habilidad:
-    def __init__(self, nombre: str, descripcion: str, fecha_creacion: str = None, fecha_actualizacion: str = None, racha_mas_larga: int = 0, racha_actual: int = 0):
+    def __init__(self, nombre: str, descripcion: str , fecha_creacion: str = None, fecha_actualizacion: str = None, racha_mas_larga: int = 0, racha_actual: int = 0):
         self.nombre = nombre
         self.descripcion = descripcion
         self.fecha_creacion = fecha_creacion if fecha_creacion else datetime.datetime.now().isoformat()
@@ -39,17 +39,6 @@ class Habilidad:
 
     def reiniciar_racha(self):
         self.racha_actual = 0
-
-    def mostrar(self, index: int):
-        diferencia = relativedelta(datetime.datetime.now(), parse(self.fecha_actualizacion))
-        if diferencia.days == 0:
-            color = Fore.GREEN  # Hecho hoy
-        elif diferencia.days == 1:
-            color = Fore.YELLOW  # No hecho hoy
-        else:
-            color = Fore.RED  # No hecho en 24 horas o más
-
-        print(f"{color}{index+1}. {self.nombre} - {self.descripcion} (Racha actual: {self.racha_actual}, Racha más larga: {self.racha_mas_larga})")
 
 class MonitorHabitos:
     def __init__(self, filename: str = 'habilidades.json'):
