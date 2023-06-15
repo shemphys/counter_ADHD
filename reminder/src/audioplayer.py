@@ -12,7 +12,10 @@ import time
 from playsound import playsound
 
 def reproducir_audio():
-    playsound('recordings/recording.mp3')
+#    playsound('recordings/recording.mp3')
+#    playsound('recordings/canada.mp3')
+    playsound('src/recordings/estas_estudiando_Data_Science.mp3')
+
 
 while True:
     time.sleep(6)  # Wait 10 minutes 600

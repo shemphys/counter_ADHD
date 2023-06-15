@@ -5,7 +5,9 @@ The idea (now) is it to be changing the phrase
 REMINDERS OF WHAT I'M DOING
 ----------------------------
 To do:
-Hey, dumbass, go back to Python, wtf
+- Hey, dumbass, go back to Python, wtf (que sea una rotacion o solo un audio. # TO TEST)
+- Tabas leyedno weii, ya vuelveeee >.<
+
 
 To redo:
 Tonto. Vuelve a estudiar Python, que es lo que estabas haciendo
@@ -13,8 +15,8 @@ Go back to study Python, dumbass
 Estabas estudiando Python, bobo
 
 Done:
-Recording.mp3 Tas bobo o qué. Tú estabas estudiando Python, vuelve pallá
-
+- Recording.mp3 Tas bobo o qué. Tú estabas estudiando Python, vuelve pallá
+- Estabas con lo de canada, melón
 
 --------------------------------
 REMINDERS OF WHY I WAS DOING IT

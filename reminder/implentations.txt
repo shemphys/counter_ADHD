@@ -15,3 +15,11 @@ Descargar una playlist de canciones para poner en bucle y hacerme pavlov xD
 
 Thanks to Tech-Chad for your pymatrix-rain!!
 https://github.com/tech-chad/pymatrix-rain
+
+-----------------------------
+
+La carpeta de recordings tiene que estar protegida con una contraseña
+ excute.py te pedirá la contraseña siempre para acceder a ella y poder usar los archivos de audio.
+
+Cuando ejecute el programa, quiero que me ofrezca las opciones que tengo disponibles de audios.
+ Y que se quede a la escucha para que, si lo paro, me vuelva a dar las opciones de audios disponibles.
