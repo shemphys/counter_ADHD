@@ -1,15 +1,11 @@
 {
     "manifest_version": 2,
-    "name": "Redirección a Codecademy y OpenAI",
+    "name": "Redirigir a Codecademy",
     "version": "1.0",
-    "permissions": [
-      "webRequest",
-      "webRequestBlocking",
-      "<all_urls>"
-    ],
     "background": {
       "scripts": ["background.js"],
       "persistent": true
-    }
+    },
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"]
   }
   
