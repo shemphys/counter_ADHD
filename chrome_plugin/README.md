@@ -3,4 +3,4 @@
  Instead, it will redirect me into my workspaces.
 
 ## Future implementations
- - Enable/Disable toolbar button
+ - Enable/Disable toolbar button (maybe better not to have it xD)
